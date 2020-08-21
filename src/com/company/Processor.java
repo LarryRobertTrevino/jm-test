@@ -10,13 +10,13 @@ public class Processor {
 
         String[] expression = getExpression();
 
-        InputData inputData = NumberHandler.processExpression(expression);
+        InputData inputData = expressionHandler.processExpression(expression);
 
-        int res = NumberHandler.calculate(inputData);
+        int res = expressionHandler.calculate(inputData);
 
         if (inputData.isRoman()) {
 
-            System.out.println(NumberHandler.convertToRoman(res));
+            System.out.println(expressionHandler.convertToRoman(res));
 
         } else {
 

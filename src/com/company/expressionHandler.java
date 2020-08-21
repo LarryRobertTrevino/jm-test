@@ -1,6 +1,6 @@
 package com.company;
 
-public class NumberHandler {
+public class expressionHandler {
 
     public static InputData processExpression(String[] expression) throws Exception {
 
